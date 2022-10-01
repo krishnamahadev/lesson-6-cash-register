@@ -1,16 +1,27 @@
 
 const billamount = document.querySelector("#bill-amount");
 
-// const ver =document.querySelector("#verify")
-// // console.log(billamount.value)
+const checkbutton = document.querySelector("#checkbutton");
+
+const cashgiven = document.querySelector("#cash-given");
+
+// console.log(cashgiven.value); //check with Divya why this is not working
 
 
-// function clickevent()
-// {
-//     console.log(billamount.value)
-// }
+function onclick()
+{
+    console.log("did it click")
 
-// ver.addEventListener(click,clickevent())
+}
+
+checkbutton.addEventListener("click", onclick());
 
 
-const checkbutton = console.log(billamount.value);
+
+
+
+
+
+
+
+
